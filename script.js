@@ -131,7 +131,7 @@ function shiro() {
 }
 function noir() {
   color1 = "black";
-  size1 = 1;
+  document.getElementById("slide").value = 5;
 }
 
 ///*
