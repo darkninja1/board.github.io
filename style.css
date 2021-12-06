@@ -10,6 +10,7 @@ body, html {
 }
 
 #myCanvas {
+	width:100%;
 	cursor: crosshair;
   position: fixed;
 }
