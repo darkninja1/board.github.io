@@ -1,0 +1,46 @@
+//copywrite bitrater
+<html>
+  <head>
+<meta charset="utf-8" />
+<title>Bitrater Drawing Board</title>
+<script type="text/JavaScript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=1.4.2"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css" />
+<link rel="icon" href="https://chat.bitrater.repl.co/pics/download.png">
+</head>
+<body>
+	<canvas id="myCanvas">
+		Sorry, your browser does not support HTML5 canvas technology.
+	</canvas>
+  <div class='menu'><button class='btn1' onclick='reload()'>Clear</button></div>
+
+  <div class='menu2'>
+
+  <button style='background-color:black;' class='color' onclick='black()'></button>
+  <button style='background-color:#00bbff;' class='color' onclick='blue()'></button>
+  <button style='background-color:#00ffbf;' class='color' onclick='green()'></button>
+  <button style='background-color:#c300ff;' class='color' onclick='purple()'></button>
+  <button style='background-color:#ed1f48;' class='color' onclick='red()'></button>
+  <button style='background-color:#e8ff69;' class='color' onclick='colors("#e8ff69")'></button>
+  <input type="color" id="head" class='color2' value='#FFFFFF'   onclick='colorpick()'>
+
+  
+  </div>
+  <div class='menu3'>
+  
+  <label for='slide'>Size:</label>
+  <input type="range" min="1" max="30" value="5" id="slide">
+
+  </div>
+  <div class='menu4'>
+  <button class='btn2' onclick='noir()'><i style="font-size:24px" class="fa">&#xf040;</i></button>
+
+  <button class='btn2' onclick='shiro()'><i style="font-size:24px" class="fa">&#xf12d;</i></button>
+
+  <button class='btn2' id='capture' onclick='screenshot()'><i style="font-size:24px" class="fa">&#xf030;</i></button>
+
+  </div>
+
+  <script type="text/JavaScript" src="script.js"></script>
+</body>
+</html>
