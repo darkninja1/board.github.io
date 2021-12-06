@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	height: 100%;
+  color:rgb(201, 201, 27);
+  overscroll-behavior: contain;
+}
+
+#myCanvas {
+	cursor: crosshair;
+  position: fixed;
+}
+.menu {
+  position: absolute;
+  padding:10px;
+  background-color:rgb(219, 219, 219);
+  top:0px;
+  right:0px;
+  width:auto;
+}
+.menu2 {
+  position: absolute;
+  padding:10px 30px 10px 10px;
+  background-color:rgb(219, 219, 219);
+  bottom:0px;
+  left:0px;
+  width:auto;
+}
+.menu3 {
+  position: absolute;
+  padding:10px 10px 10px 10px;
+  background-color:rgb(219, 219, 219);
+  bottom:0px;
+  right:0px;
+  width:auto;
+  
+}
+.menu4 {
+  position: absolute;
+  padding:10px 10px 10px 10px;
+  background-color:rgb(219, 219, 219);
+  top:0px;
+  left:0px;
+  width:auto;
+}
+.btn1 {
+  background-color:rgb(0, 102, 255);
+  padding:5px 10px 5px 10px;
+  border:none;
+  font-size:20px;
+  outline:none;
+  border-radius:20px;
+  transition:0.3s linear;
+}
+.btn1:hover {
+  background-color:rgb(0, 174, 255);
+  cursor:pointer;
+}
+.btn2 {
+  background-color:rgb(219, 219, 219);
+  padding:10px;
+  border:none;
+  font-size:15px;
+  outline:none;
+  transition:0.3s linear;
+  
+
+
+}
+.btn2:hover {
+  background-color:rgb(199, 199, 199);
+  cursor:pointer;
+}
+.color {
+  padding:15px;
+  outline:none;
+  border-radius:50%;
+  margin-left:20px;
+  cursor: pointer;
+  border:none;
+  transition:0.3s linear;
+
+}
+.color:hover {
+  opacity:0.5;
+  color:rgba(0, 0, 0, 0.5);
+}
+.color2 {
+  background-color:transparent;
+  -webkit-appearance: none;
+  width:30px;
+  padding:0px;
+  outline:none;
+  border-radius:50%;
+  margin-left:20px;
+  cursor: pointer;
+  border:none;
+  transition:0.3s linear;
+
+}
+.color2:hover {
+  opacity:0.5;
+  color:rgba(0, 0, 0, 0.5);
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+  margin-bottom:0px;
+  position: relative;
+  bottom:-15px;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+  width:30px;
+  height:30px;
+  padding:0px;
+  outline:none;
+  border-radius:50%;
+  margin-bottom:0px;
+}
