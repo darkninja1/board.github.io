@@ -4,7 +4,6 @@
 }
 
 body, html {
-	height: 100%;
   color:rgb(201, 201, 27);
   overscroll-behavior: contain;
 	margin: 0;
